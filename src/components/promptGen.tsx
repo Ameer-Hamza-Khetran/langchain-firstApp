@@ -11,7 +11,7 @@ const chatModel = new ChatOpenAI({
   temperature: 0.7,
 });
 
-const text = "Write an email to my friend Hassam asking him for some food as a loan that I would return him 1 week later. Write in such a tone that he cannot recognise that the email is written by an LLM. Use vocabulary of a 5th grader. Use the name 'Fahad' whereever my name is necessary. Don't write anything else, only print the email."  
+const text = "What would be a good company name for a company that makes colorful socks?"
 
 const llmResult = await llm.predict(text);
 
